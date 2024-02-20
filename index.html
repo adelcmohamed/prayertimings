@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="prayer-timeing">
+        <div class="container">
+            <div class="timing">
+                <h1 class="clock"></h1>
+                <h2 class="endate"></h2>
+                <!-- <h2 class="ardate"></h2> -->
+                
+            </div>
+            <div class="prayers">
+                <div class="city"><h2 id="city">elquliobia</h2></div>
+                <div class="prayer-timings">
+                    <div class="prayer">
+                        <h4>الفجر</h4>
+                        <div class="time" >
+                            <p id="alfjr"></p>
+                        </div>
+                    </div>
+                    <div class="prayer">
+                        <h4>الشروق</h4>
+                        <div class="time" >
+                            <p id="sunrise"></p>
+                        </div>
+                    </div>
+                    <div class="prayer">
+                        <h4>الظهر</h4>
+                        <div class="time" >
+                            <p id="aduhr"></p>
+                        </div>
+                    </div>
+                    <div class="prayer">
+                        <h4>العصر</h4>
+                        <div class="time" >
+                            <p id="asr"></p>
+                        </div>
+                    </div>
+                    <div class="prayer">
+                        <h4>المغرب</h4>
+                        <div class="time" >
+                            <p id="wise"></p>
+                        </div>
+                    </div>
+                    <div class="prayer">
+                        <h4>الامساك</h4>
+                        <div class="time" >
+                            <p id="isha"></p>
+                        </div>
+                    </div>
+                    <div class="prayer">
+                        <h4>الامساك</h4>
+                        <div class="time" >
+                            <p id="imsak"></p>
+                        </div>
+                    </div>
+                </div>
+                <select class="select">
+                    <option value="">select city</option>
+                    <!-- <option value="Ad Daqahlīyah">Ad Daqahlīyah</option>
+                    <option value="Al Baḩr al Aḩmar">Al Baḩr al Aḩmar</option>
+                    <option value="Al Buḩayrah">Al Buḩayrah</option>
+                    <option value="Al Iskandarīyah">Al Iskandarīyah</option>
+                    <option value="Al Jīzah">Al Jīzah</option>
+                    <option value="Al Qāhirah">Al Qāhirah</option> -->
+                </select>
+            </div>
+            
+        
+        </div>
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
